@@ -1,0 +1,197 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background-color: #313047;
+	text-decoration:none;
+	list-style-type: none;
+}
+header{
+
+	background-color: #2d3127;
+}
+
+a:link {color: #cb4f0e;}
+a:visited {color: #cb4f0e;}
+
+#link3{
+	max-width: 47%;
+	font-size: 0.9em;
+	float: left;
+	text-align:center;
+	position: relative;
+}
+#link4{
+	max-width: 47%;
+	font-size: 0.9em;
+	float: left;
+	text-align:center;
+	position: relative;
+}
+
+.ui-btn{
+	color: #cb4f0e;
+}
+.a1{
+	display:inline-block;
+	 float:left;
+	  position: absolute;
+}
+
+.a2{
+		left: 70%;
+	display:inline-block;
+	 float:right;
+	  position: absolute;
+}
+
+.ui-content{
+	background-color:#313047;
+	color: #fdc87e;
+}
+
+.ui-footer{ /*
+	width: 100%;
+	padding:0%;
+	margin:0%;
+	position:fixed; 
+  	left:0;
+  	top: 96%;
+ 	width:100%; 
+  	height:4%;
+  	text-align:center;
+  	background-color: #594444;
+	color: #fdc87e;*/
+	display: none;
+}
+h1{
+		background-color: #FFFFFF;
+	color: #2d3127;
+	text-align: center;
+}
+h2{
+		background-color: #FFFFFF;
+	color: #2d3127;
+	text-align: center;
+}
+h4{
+	font-size: 1em;
+	color: #ea7c70;
+}
+li:link {color: #fdc87e;};
+li:visited {color: #ea7c70;};
+
+li{
+	font-size: 0.9em
+	color: #ea7c70;
+}
+
+div{
+	font-family: 'Ovo', serif;
+}
+
+.ui-header{
+	background-color: black;
+	color: white;
+}
+
+.menu_bar{
+	padding:0;
+	margin:0;
+	position: relative;
+}
+
+#mainmenu{
+	height: 100%;
+	background-color: #594444;
+	color: #fdc87e;
+	font-family: 'Catamaran', sans-serif;
+}
+
+@media only screen 
+   and (min-width : 200px) {
+   /* Celu Chico */
+* {
+	padding:0%;
+	margin:0%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+h2{
+	font-size: 1.2em;
+}
+
+.achicar{
+	display: none;
+}
+
+#foot3{/*
+	width: 100%;
+	padding:0%;
+	margin:0%;
+	position:fixed; 
+  	left:0;
+  	top: 96%;
+ 	width:100%; 
+  	height:4%;
+  	text-align:center;
+  	background-color: #594444;
+	color: #fdc87e;
+	font-size: 80%;*/
+	display: none;
+
+}
+
+#link3{
+	float: left;
+	max-width: 100%;
+	font-size: .9em;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:center;
+}
+#link4{
+	float: left;
+	max-width: 100%;
+	font-size: .9em;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:center;
+}
+
+@media only screen 
+   and (min-width : 320px) {
+   /* Celu Normal */
+
+}
+@media only screen 
+   and (min-width : 456px) {
+   /* Celu Normal */
+
+#link4{
+	float: right;
+		max-width: 100%;
+	font-size: .9em;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:center;
+}
+
+}
+
+@media only screen 
+   and (min-width : 768px) {
+   /* Tablet */
+}
+@media only screen 
+   and (min-width : 1200px) {
+   /* Notebook */
+}
+@media only screen 
+   and (min-width : 1600px) {
+   /* PC master race */
+}
